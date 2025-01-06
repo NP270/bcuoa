@@ -92,79 +92,6 @@ body {
     right: 0;
   }
 
-  /* Featured Section */
-  .featured {
-    padding: 50px;
-  }
-
-  .featured h2 {
-    margin-bottom: 30px;
-    font-size: 28px;
-  }
-
-  .tile-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto;
-    gap: 20px;
-    grid-template-areas: "tile tile tile tile";
-  }
-
-  .tile-item {
-    background-color: #222;
-    border-radius: 10px;
-    overflow: hidden;
-    color: white;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    aspect-ratio: 9 / 16;
-  }
-
-  .tile-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Crop tiles if needed */
-    aspect-ratio: auto;
-  }
-
-  .tile-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 20px;
-    flex-grow: 1;
-  }
-
-  .tile-content h3 {
-    margin: 0 0 10px;
-    font-size: 18px;
-  }
-
-  .tile-content p {
-    margin: 0;
-    font-size: 14px;
-    color: #aaa;
-  }
-
-  .tile {
-    grid-area: tile;
-    grid-column: span 1;
-  }
-
-  .circle {
-    border-radius: 50%;
-    overflow: hidden;
-    aspect-ratio: 1 / 1;
-    width: auto;
-  }
-
-  .circle img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
   /* spacing */
   .space1 {
     width: 1em; 
@@ -332,8 +259,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between; /* Spacing between text and image */
-    height: 80vh; /* Viewport height */
+    height: 100vh; /* Viewport height */
     color: white;
+    margin-top: -60px; /* Height adjustments */
   }
 
   .welcome-text {
@@ -353,7 +281,7 @@ body {
   .welcome-text p {
     font-family: 'Poppins-R', sans-serif; 
     font-size: 2vw; /* Sub text */
-    margin: 5px 0;
+    margin: 0;
   }
 
   .image-wrapper {
@@ -379,7 +307,6 @@ body {
   .gallery-text h2 {
     padding-left: 5%; 
     font-size: 42px;
-    margin-top: 80px;
     margin-bottom: 15px;
     font-family: 'Poppins-R', sans-serif; 
   }
