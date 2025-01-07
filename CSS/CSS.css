@@ -258,10 +258,12 @@ body {
   .welcome-section {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Spacing between text and image */
+    justify-content: space-between;
     height: 100vh; /* Viewport height */
     color: white;
     margin-top: -60px; /* Height adjustments */
+    /* border: 2px solid white;  Debugging Border
+     box-sizing: border-box; */
   }
 
   .welcome-text {
