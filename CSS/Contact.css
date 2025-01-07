@@ -147,8 +147,8 @@
 
 
 @media (max-width: 1199px) {
-   .u-section-1 {
-    min-height: 946px;
+  .u-section-1 {
+    min-height: 1027px;
   }
 
   .u-section-1 .u-image-1 {
@@ -158,7 +158,6 @@
   .u-section-1 .u-layout-wrap-1 {
     width: 940px;
     margin-top: -295px;
-    margin-bottom: 50px;
   }
 
   .u-section-1 .u-layout-cell-1 {
