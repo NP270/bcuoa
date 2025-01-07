@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BCUOA | Home</title>
-    <link href="Img/A-Logo-C.png" rel="shortcut icon" type="image/jpg">
+  <title>BCUOA | Redirecting...</title>
+  <link href="Img/A-Logo-C.png" rel="shortcut icon" type="image/jpg">
   <style>
-    /* Full screen dark overlay */
+    /* Full screen dark background */
     body {
       margin: 0;
       padding: 0;
@@ -15,13 +15,16 @@
       justify-content: center;
       align-items: center;
       background-color: #121212;
+      color: white;
+      font-family: Arial, sans-serif;
     }
   </style>
 </head>
 <body>
   <script>
-    if (window.location.pathname === '/index.html' || window.location.pathname === '/') {
-      window.location.replace('/home');
+    // Corrected path to include the repository name
+    if (window.location.pathname === '/bcuoa/index.html' || window.location.pathname === '/bcuoa/') {
+      window.location.replace('/bcuoa/home.html'); // Redirect to home.html in the correct directory
     }
   </script>
 </body>
