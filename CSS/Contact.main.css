@@ -3245,9 +3245,6 @@ a {
   color: #259bca;
   text-decoration: none;
 }
-a:hover {
-  color: #0676a4;
-}
 a:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
@@ -26852,7 +26849,7 @@ input.u-field-input.u-field-input.u-active-color-1-light-2:checked {
   background-color: rgb(9, 22, 138) !important;
 }
 a.u-link.u-hover-color-1-light-2:hover {
-  color: rgb(9, 22, 138) !important;
+  color: white !important;
 }
 .u-color-1-light-3,
 .u-body.u-color-1-light-3,
