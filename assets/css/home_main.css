@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 @font-face {
     font-family: "Blade";
-    src: url("../font/Blade.ttf") format("truetype");
+    src: url("../fonts/Blade.ttf") format("truetype");
 	text-rendering: optimizeLegibility;
 }
 
