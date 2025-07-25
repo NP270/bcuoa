@@ -2720,7 +2720,7 @@ input, select, textarea {
 		background-color: #2e3141;
 		background-image:
 			linear-gradient(to top, rgba(30, 30, 30, 0.98), rgba(30, 30, 30, 0.2)),
-			url("file:///D:/BCUOA%20Web/html5up-alpha/images/LandingBG.png");
+			url("../../images/LandingBG.png");
 		background-size: auto, cover;
 		background-position: center, center;
 		background-attachment: fixed;
