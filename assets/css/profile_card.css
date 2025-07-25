@@ -210,3 +210,42 @@ body.light .card {
 		border: 7px solid #d4d5d5;
 		box-shadow: rgba(96, 75, 74, 0.188) 0px 5px 5px 0px;
 	}
+
+
+/* No Hover State */
+
+@media (hover: none) and (pointer: coarse), (prefers-reduced-motion: reduce) {
+  .card {
+    border-top-left-radius: 55px;
+  }
+
+  .card .bottom {
+    top: 20%;
+    border-radius: 80px 29px 29px 29px;
+    transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
+  }
+
+  .card .profile-pic {
+    width: 100px;
+    height: 100px;
+    aspect-ratio: 1;
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+    z-index: 3;
+    border: 7px solid #1E355F;
+    box-shadow: rgba(181, 181, 181, 0.188) 0px 5px 5px 0px;
+    transition: all 0.5s ease-in-out, z-index 0.5s ease-in-out 0.1s;
+  }
+
+  .card .profile-pic img {
+    transform: scale(2.0);
+    object-position: 0px 13px;
+    transition: all 0.5s ease-in-out 0.5s;
+  }
+
+  .card .profile-pic svg {
+    transform: scale(2.5);
+    transition: all 0.5s ease-in-out 0.5s;
+  }
+}

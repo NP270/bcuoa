@@ -4020,31 +4020,36 @@
 /* features */
 
 		.countdown-wrapper {
-		position: relative;
-		overflow: hidden;
-		text-align: center;
-		padding: 3em 3em;
+			position: relative;
+			overflow: hidden;
+			text-align: center;
+			padding: 3em 3em;
+		}
+
+		.countdown-timer {
+			pointer-events: none;
+			cursor: default;
 		}
 
 		.background-image {
-		position: absolute;
-		inset: 0;
-		z-index: 0;
+			position: absolute;
+			inset: 0;
+			z-index: 0;
 		}
 
 		.background-image img {
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-		object-position: center;
-		display: block;
-		filter: brightness(0.6);
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			object-position: center;
+			display: block;
+			filter: brightness(0.6);
 		}
 
 		.coming-soon {
-		position: relative;
-		z-index: 1;
-		color: #EAEAEA;;
+			position: relative;
+			z-index: 1;
+			color: #EAEAEA;
 		}
 
 		.box.features h2 {
